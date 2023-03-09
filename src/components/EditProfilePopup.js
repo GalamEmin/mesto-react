@@ -29,7 +29,6 @@ function EditProfilePopup(props) {
   }, [currentUser, props.isOpen]);
 
   return (
-    <>
       <PopupWithForm
         name="edit-profile"
         title="Редактировать профиль"
@@ -67,8 +66,7 @@ function EditProfilePopup(props) {
           />
           <span className="popup__input-error popup__input-about-error"/>
         </label>
-      </ PopupWithForm>
-    </>
+    </ PopupWithForm>
   )
 }
 
